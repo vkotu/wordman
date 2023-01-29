@@ -4,6 +4,7 @@ import { block } from './sleep';
 const hex = '0123456789ABCDEF'.split('');
 
 const generateRandomColor = () => {
+  console.log('generateRandomColor');
   let result = '';
 
   for (let index = 0; index < 6; index++) {
